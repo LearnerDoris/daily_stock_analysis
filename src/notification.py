@@ -76,7 +76,7 @@ SMTP_CONFIGS = {
     "aliyun.com": {"server": "smtp.aliyun.com", "port": 465, "ssl": True},
     # 139邮箱
     "139.com": {"server": "smtp.139.com", "port": 465, "ssl": True},
-    "gmail.com": {"server": "smtp.gmail.com", "port": 465, "ssl": True},
+    "heyneww.com": {"server": "smtp.gmail.com", "port": 465, "ssl": True},
 }
 
 
