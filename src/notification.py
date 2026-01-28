@@ -1739,7 +1739,7 @@ class NotificationService:
             # 自动识别 SMTP 配置
             domain = sender.split('@')[-1].lower()
             smtp_config = SMTP_CONFIGS.get(domain)
-            
+            logger.info(f"{sender}, {receivers}, {password}")
             if smtp_config:
                 smtp_server = smtp_config['server']
                 smtp_port = smtp_config['port']
